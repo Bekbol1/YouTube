@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/playlistsFragment">
+    <fragment
+        android:id="@+id/playlistsFragment"
+        android:name="com.example.youtube.presentation.playlists.PlaylistsFragment"
+        android:label="fragment_playlists"
+        tools:layout="@layout/fragment_playlists" >
+        <action
+            android:id="@+id/action_playlistsFragment_to_playlistItemsFragment"
+            app:destination="@id/playlistItemsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlistItemsFragment"
+        android:name="com.example.youtube.presentation.playlistitems.PlaylistItemsFragment"
+        android:label="PlaylistItemsFragment">
+        <argument
+            android:name="playlistItem"
+            app:argType="com.example.youtube.data.model.PlaylistsModel$Item"/>
+        <action
+            android:id="@+id/action_playlistItemsFragment_to_videoDetailFragment"
+            app:destination="@id/videoDetailFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/videoDetailFragment"
+        android:name="com.example.youtube.presentation.videodetail.VideoDetailFragment"
+        android:label="fragment_video_detail"
+        tools:layout="@layout/fragment_video_detail">
+
+        <argument
+            android:name="videoDetail"
+            app:argType="com.example.youtube.data.model.PlaylistsModel$Item"/>
+
+    </fragment>
+</navigation>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YouTube</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="playlist">playlist</string>
+    <string name="playlist_name">Playlist name</string>
+    <string name="emotional_well_being_healing_practices_for_children"><![CDATA[Emotional Well-being & Healing Practices for Children]]></string>
+    <string name="_32_video_series">32 video series</string>
+    <string name="try_again">Try again</string>
+    <string name="no_connection_try_again">No connection, try again</string>
+    <string name="back">Back</string>
+    <string name="_playlist">Playlist</string>
+    <string name="download">Download</string>
+    <string name="test_desc">Refugee children often have suffered many losses and because of that, they are grieving these losses they\'re grieving the loss of their home, the loss of the life they knew, the places where they were used to be and that they loved to go. The loss of their friends, and certainly the loss of their family members and loved ones. So naturally they\'re going to have sadness.</string>
+    <string name="_1080p">1080p</string>
+    <string name="_720p">720p</string>
+    <string name="_480p">480p</string>
+</resources>

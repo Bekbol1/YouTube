@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_52dp">52dp</dimen>
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_0dp">0dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+    <dimen name="img_no_internet_default_with">240dp</dimen>
+    <dimen name="img_no_internet_default_height">276dp</dimen>
+    <dimen name="default_sp_16">16sp</dimen>
+    <dimen name="_15sp">15sp</dimen>
+    <dimen name="progress_bar_parameters">60dp</dimen>
+    <dimen name="card_video_width">120dp</dimen>
+    <dimen name="card_video_height">80dp</dimen>
+    <dimen name="_24dp">24dp</dimen>
+    <dimen name="_25dp">25dp</dimen>
+</resources>
